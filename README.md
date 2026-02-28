@@ -95,9 +95,9 @@
 ### Вимоги
 
 - 15+ API endpoints
-- JWT + OAuth
-- PostgreSQL + Prisma
-- Docker
+- JWT. OAuth - опційно
+- SQLite + Prisma
+- Docker - опційно
 - **Live deployment!**
 
 ### Приклади тем
