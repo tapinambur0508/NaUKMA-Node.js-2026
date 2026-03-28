@@ -2,7 +2,7 @@ function getEnvironmentVariable(name: string, defaultValue?: string): string {
   const value = process.env[name] ?? defaultValue;
 
   if (value === undefined) {
-    throw new Error(`Enrolment variable ${name} is required`);
+    throw new Error(`Environment variable ${name} is required`);
   }
 
   return value;

@@ -1,0 +1,34 @@
+{
+  "compilerOptions": {
+    // JavaScript version для компіляції
+    "target": "ES2020",
+
+    // Module system
+    "module": "commonjs",
+
+    // Папка для скомпільованих файлів
+    "outDir": "./dist",
+
+    // Папка з вихідним кодом
+    "rootDir": "./src",
+
+    // Генерувати source maps для debugging
+    "sourceMap": true,
+
+    // Strict type checking
+    "strict": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+
+    // Module resolution
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+
+    // Інші опції
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "dist"]
+}
